@@ -1,0 +1,54 @@
+.home_container {
+  background-color: #8c8da7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1rem;
+}
+.drop-box-container {
+  height: 10rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aqua;
+  padding: 0.5rem;
+}
+.drop-box {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 1rem;
+}
+.testimonials {
+  margin-top: 1rem;
+  background-color: green;
+  width: 80%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.test-videos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.testimonial-container {
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
